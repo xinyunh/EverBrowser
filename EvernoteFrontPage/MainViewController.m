@@ -328,7 +328,9 @@
                                     [self setTransform:CGAffineTransformMakeRotation(angle)];
                                 }];
                             } else {
-                                [self setTransform:CGAffineTransformMakeRotation(angle)];
+                                CGAffineTransform concat = CGAffineTransformConcat(CGAffineTransformMakeRotation(angle), CGAffineTransformMakeScale(_scalingFactor, _scalingFactor));
+                                
+                                [self setTransform:concat];
                             }
                             self.alpha = 1 - ABS(angle * 2.0f);
                             _curAngle = angle;

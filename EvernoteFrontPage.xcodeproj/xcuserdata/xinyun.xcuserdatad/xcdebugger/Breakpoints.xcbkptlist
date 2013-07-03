@@ -955,11 +955,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "EvernoteFrontPage/MainViewController.m"
-         timestampString = "394526533.2338"
+         timestampString = "394572460.574042"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "394"
-         endingLineNumber = "394"
+         startingLineNumber = "396"
+         endingLineNumber = "396"
          landmarkName = "-expandCardToFullSize:"
          landmarkType = "5">
       </FileBreakpoint>
